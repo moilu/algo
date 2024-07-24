@@ -7,9 +7,9 @@ def improved_fib(n):
     return memo[n]
 
 
-def print_fibonacci_sequence(n):
+def print_sequence(n):
     for i in range(n + 1):
         print(improved_fib(i))
 
 
-print_fibonacci_sequence(50)
+print_sequence(50)
